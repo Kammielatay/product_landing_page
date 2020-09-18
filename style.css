@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-padding-top: 350px;
+}
+
+body {
+    background: #CDDAD8;
+    font-size: 20px;
+   
+}
+
+/* desktop layout */
+
+
+#header-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+}
+
+h1{
+    margin: 10px 0px;
+}
+
+h3{
+    color: #004720;
+}
+h4{
+    text-decoration: underline;
+}
+
+#header {
+    text-align: center;
+    color: #eee;
+    background-color: #919f89; 
+    position: sticky;
+    top:0;
+
+}
+
+#nav-background{
+    display: block;
+    background-color: #eee;
+    height:auto;
+   
+}
+
+
+
+a:link, a:visited {
+    color:#98a7ac;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e2b8ac;
+}
+
+
+.flex-container {
+    max-width: 1400px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.item {
+    padding: 20px;
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    text-align: center;
+    color: #004720;
+    
+}
+.item > p {
+    color: #111;
+}
+
+#about > #about-p {
+    background-color:#eee;
+    text-align: center;
+    line-height: 1.6em;
+    margin:20px 40px;
+    border-radius:10px;
+}
+
+#about-p > p {
+    padding: 10px 40px;
+    color: #111;
+
+}
+
+#video{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+
+}
+
+#price {
+   max-width:1000px;
+   margin: 20px auto;
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+.first{
+    background-color:#eee;
+    padding: 20px;
+    flex:1;
+    color: #111;    
+    border-radius: 15px 15px 0px 0px;
+}
+
+.second {
+    flex:1; 
+    display: flex;
+    color: #111;
+      
+}
+
+.second-a {
+    background-color: #b9d3bd;
+    flex: 1;
+
+    text-align: center;
+    padding: 20px;
+    line-height: 2.6em;
+    border-radius: 0px 0px 0px 15px;
+ 
+
+}
+
+.second-b {
+    background-color: #acbea2;
+    flex: 1;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 0px 0px 15px 0px;
+    
+}
+
+.refund {
+    color: #e2b8ac;
+}
+
+.per-month{
+    color: #004720;
+    font-size: 2em;
+    padding: 10px;
+
+}
+
+li{
+    list-style-type: circle;
+    list-style-position: inside;
+    
+}
+
+#first-order {
+    background-color: #ccc;
+    color: #111;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+
+}
+
+#submit {
+    background-color: gray;
+    font-size: 16px;
+    padding: 5px 16px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+#submit:hover {
+    background-color: #e2b8ac; 
+}
+
+#email{
+    width: 30%;
+    height: 30px;
+   
+}
